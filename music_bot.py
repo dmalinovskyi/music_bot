@@ -13,7 +13,7 @@ CLIENT_ID = 'client_ID'
 CLIENT_SECRET = 'client_private_key'
 
 
-TELEGRAM_TOKEN = ':AAGp8JGsqzAm1rXdmlFWB83Tffa7x0N-IVE'
+TELEGRAM_TOKEN = ':'
 bot = telegram.Bot(token=TELEGRAM_TOKEN)
 
 client_credentials_manager = SpotifyClientCredentials(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)

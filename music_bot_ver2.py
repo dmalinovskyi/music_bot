@@ -4,13 +4,13 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
 
-client_id = 'c9c2a1f9769f470f9f6cc3eb38caf538'
-client_secret = '1075af586c7547a98a513d864eac3a97'
+client_id = ''
+client_secret = ''
 client_credentials_manager = SpotifyClientCredentials(client_id, client_secret)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 
-bot = TeleBot('6082707712:AAGp8JGsqzAm1rXdmlFWB83Tffa7x0N-IVE')
+bot = TeleBot('')
 
 
 def get_random_track():
